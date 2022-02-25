@@ -17,9 +17,9 @@ spec:
   environments:
   - key: dev
   - key: staging
-  - key: production
   ingress:
-    domain: ""
+    domain: "k8s.alkhaleefi.com"
+    kind: ingress
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
